@@ -1,6 +1,5 @@
 {
   "name": "@uniswap/analytics-events",
-  "version": "1.0.2",
   "description": "Uniswap analytics events",
   "license": "MIT",
   "publishConfig": {
@@ -51,5 +50,8 @@
     "prettier": "^2.7.1",
     "semantic-release": "^19.0.5",
     "typescript": "^4.4.3"
+  },
+  "engines": {
+    "node": ">=14"
   }
 }

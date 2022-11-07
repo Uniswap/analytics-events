@@ -47,7 +47,7 @@ export enum EventName {
 /**
  * Known events that trigger callbacks.
  * @example
- *  <TraceEvent events={[Event.onClick]} element={name}>
+ *  <TraceEvent events={[BrowserEvent.onClick]} element={name}>
  */
 export enum BrowserEvent {
   onClick = 'onClick',
