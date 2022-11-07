@@ -1,6 +1,5 @@
 {
   "name": "@uniswap/analytics-events",
-  "version": "1.0.2",
   "description": "Uniswap analytics events",
   "license": "MIT",
   "publishConfig": {
