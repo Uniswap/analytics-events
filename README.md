@@ -1,7 +1,7 @@
 # Uniswap Labs Analytics Events
 [![npm](https://img.shields.io/npm/v/@uniswap/analytics-events)](https://www.npmjs.com/package/@uniswap/analytics-events)
 
-The `@uniswap/analytics-events` package is a [npm package](https://www.npmjs.com/package/@uniswap/analytics-events) of constants used as the inputs into our [@uniswap/analytics](https://www.npmjs.com/package/@uniswap/analytics) package
+The `@uniswap/analytics-events` package is a [npm package](https://www.npmjs.com/package/@uniswap/analytics-events) of constants used as the inputs into our [@uniswap/analytics](https://www.npmjs.com/package/@uniswap/analytics) package.
 
 ## Installation
 
@@ -34,4 +34,3 @@ This package is used into a few of Uniswap Labs repos:
 ## Legal notice
 
 Uniswap Labs encourages integrators to evaluate their own regulatory obligations when integrating this package into their products, including, but not limited to, those related to economic or trade sanctions compliance.
-
