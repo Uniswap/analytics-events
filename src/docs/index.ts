@@ -1,11 +1,4 @@
 /**
- * Known pages in the app. Highest order context.
- */
-export enum DocsPageName {
-  HOME_PAGE = 'home-page',
-}
-
-/**
  * Sections. Disambiguate low-level elements that may share a name.
  * eg a `back` button in a modal will have the same `element`,
  * but a different `section`.
@@ -22,7 +15,7 @@ export enum DocsSectionName {
  * Known element names for analytics purposes.
  * Use to identify low-level components given a TraceContext
  */
-export enum DocsElementName {
+export enum DocsHomepageElementName {
   BUILD_ORACLE = 'Build Oracle',
   DISCORD = 'Discord',
   EMBED_SWAP_WIDGET = 'Embed Swap Widget',

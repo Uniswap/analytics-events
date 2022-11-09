@@ -25,7 +25,7 @@ which in turn uses the [Angular commit message suggestions](https://github.com/a
 
 The top level folders such as [Interface](./src/interface) contain application specific data. This data gives context to the event being logged. Add a new folder for every new application being added.
 
-The top level files, such as [primitives](./src//primitives.ts) contain generic data that is supposed to be reused by different applications. This data describes the events being logged, such as `EventName.MENU_CLICK`, which reflects an event on a menu.
+The top level files, such as [primitives](./src//primitives.ts) contain generic data that is supposed to be reused by different applications. This data describes the events being logged, such as `EventName.MENU_CLICK`, which reflects an event on a menu. Specific event context should be captured in additional fields beyond the event name to create user-friendly hierarchy groupings.
 
 ## Example Apps
 

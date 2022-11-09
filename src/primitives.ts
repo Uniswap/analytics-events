@@ -1,5 +1,5 @@
 /**
- * Event names that can occur in the applications.
+ * Event names that can occur in the application.
  *
  * Subject to change as new features are added and new events are defined
  * and logged.
