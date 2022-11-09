@@ -41,6 +41,6 @@ export enum DocsElementName {
   V3_SDK = 'V3 SDK',
   V3_WIDGETS = 'V3 Widgets',
   WHAT_IS_UNISWAP = 'What is Uniswap',
-  WHITEPAPER = 'WHITEPAPER',
-  WIDGETS = 'WIDGETS',
+  WHITEPAPER = 'Whitepaper',
+  WIDGETS = 'Widgets',
 }
