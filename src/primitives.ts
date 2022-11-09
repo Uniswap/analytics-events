@@ -1,5 +1,5 @@
 /**
- * Event names that can occur in this application.
+ * Event names that can occur in the application.
  *
  * Subject to change as new features are added and new events are defined
  * and logged.
@@ -11,6 +11,8 @@ export enum EventName {
   EXPLORE_BANNER_CLICKED = 'Explore Banner Clicked',
   EXPLORE_SEARCH_SELECTED = 'Explore Search Selected',
   EXPLORE_TOKEN_ROW_CLICKED = 'Explore Token Row Clicked',
+  MENU_CLICK = 'Menu Click',
+  NAVBAR_CLICK = 'Navbar Click',
   NAVBAR_RESULT_SELECTED = 'Navbar Result Selected',
   NAVBAR_SEARCH_EXITED = 'Navbar Search Exited',
   NAVBAR_SEARCH_SELECTED = 'Navbar Search Selected',
@@ -24,7 +26,9 @@ export enum EventName {
   NFT_FILTER_OPENED = 'NFT Collection Filter Opened',
   NFT_FILTER_SELECTED = 'NFT Filter Selected',
   NFT_TRENDING_ROW_SELECTED = 'Trending Row Selected',
+  PAGE_CLICK = 'Page Click',
   PAGE_VIEWED = 'Page Viewed',
+  SEARCH_BAR_CLICKED = 'Search Bar Clicked',
   SWAP_AUTOROUTER_VISUALIZATION_EXPANDED = 'Swap Autorouter Visualization Expanded',
   SWAP_DETAILS_EXPANDED = 'Swap Details Expanded',
   SWAP_MAX_TOKEN_AMOUNT_SELECTED = 'Swap Max Token Amount Selected',
