@@ -21,6 +21,12 @@ Releasing is performed manually using the [release](/.github/workflows/release.y
 This repository uses [semantic-release](https://github.com/semantic-release/semantic-release) for the release process,
 which in turn uses the [Angular commit message suggestions](https://github.com/angular/angular/blob/main/CONTRIBUTING.md) to identify the type of release.
 
+## Documentation
+
+The top level folders such as [Interface](./src/interface) contain application specific data. This data gives context to the event being logged. Add a new folder for every new application being added.
+
+The top level files, such as [primitives](./src//primitives.ts) contain generic data that is supposed to be reused by different applications. This data describes the events being logged, such as `EventName.MENU_CLICK`, which reflects an event on a menu.
+
 ## Example Apps
 
 This package is used into a few of Uniswap Labs repos:
