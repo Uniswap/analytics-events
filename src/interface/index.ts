@@ -5,6 +5,7 @@ export enum PageName {
   NFT_COLLECTION_PAGE = 'nft-collection-page',
   NFT_DETAILS_PAGE = 'nft-details-page',
   NFT_EXPLORE_PAGE = 'nft-explore-page',
+  NFT_PROFILE_PAGE = 'nft-profile-page',
   POOL_PAGE = 'pool-page',
   SWAP_PAGE = 'swap-page',
   TOKENS_PAGE = 'tokens-page',
@@ -20,13 +21,13 @@ export enum PageName {
 export enum SectionName {
   CURRENCY_INPUT_PANEL = 'swap-currency-input',
   CURRENCY_OUTPUT_PANEL = 'swap-currency-output',
-  NAVBAR_SEARCH = 'Navbar Search',
   WIDGET = 'widget',
 }
 
 /** Known modals for analytics purposes. */
 export enum ModalName {
   CONFIRM_SWAP = 'confirm-swap-modal',
+  NFT_LISTING = 'nft-listing-modal',
   NFT_TX_COMPLETE = 'nft-tx-complete-modal',
   TOKEN_SELECTOR = 'token-selector-modal',
 }
