@@ -40,6 +40,7 @@ export enum EventName {
   SWAP_MAX_TOKEN_AMOUNT_SELECTED = 'Swap Max Token Amount Selected',
   SWAP_PRICE_UPDATE_ACKNOWLEDGED = 'Swap Price Update Acknowledged',
   SWAP_QUOTE_RECEIVED = 'Swap Quote Received',
+  SWAP_MODIFIED_IN_WALLET = 'Swap Modified in Wallet',
   SWAP_SIGNED = 'Swap Signed',
   SWAP_SUBMITTED_BUTTON_CLICKED = 'Swap Submit Button Clicked',
   SWAP_TOKENS_REVERSED = 'Swap Tokens Reversed',
