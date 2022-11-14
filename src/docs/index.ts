@@ -11,6 +11,12 @@ export enum DocsSectionName {
   WELCOME_LINKS = 'Welcome Links',
 }
 
+export enum DocsProtocolVersion {
+  V1 = 'V1',
+  V2 = 'V2',
+  V3 = 'V3',
+}
+
 /**
  * Known element names for analytics purposes.
  * Use to identify low-level components given a TraceContext
