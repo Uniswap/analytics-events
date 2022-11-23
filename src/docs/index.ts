@@ -9,6 +9,7 @@ export enum DocsSectionName {
   DEVELOPER_LINKS = 'Developer Links',
   GETTING_STARTED_LINKS = 'Getting Started Links',
   QUICK_LINKS = 'Quick Links',
+  SENTIMENT = 'Sentiment',
   SMART_CONTRACT_LINKS = 'Smart Contract Links',
   WELCOME_LINKS = 'Welcome Links',
 }
@@ -31,6 +32,8 @@ export enum DocsHomepageElementName {
   GITHUB = 'Github',
   GRANTS = 'Grants',
   IMPLEMENT_SWAP = 'Implement Swap',
+  NEGATIVE_SENTIMENT = 'Negative Sentiment',
+  POSITIVE_SENTIMENT = 'Positive Sentiment',
   PROVIDE_LIQUIDITY = 'Provide Liquidity',
   SDK = 'SDK',
   SDK_QUICK_START = 'Sdk Quick Start',
