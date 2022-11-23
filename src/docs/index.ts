@@ -5,9 +5,11 @@
  */
 export enum DocsSectionName {
   BOTTOM_MENU_LINKS = 'Bottom Menu Links',
+  DAPP_LINKS = 'DApp Links',
   DEVELOPER_LINKS = 'Developer Links',
   GETTING_STARTED_LINKS = 'Getting Started Links',
   QUICK_LINKS = 'Quick Links',
+  SMART_CONTRACT_LINKS = 'Smart Contract Links',
   WELCOME_LINKS = 'Welcome Links',
 }
 
