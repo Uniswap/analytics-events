@@ -35,6 +35,7 @@ export enum EventName {
   PAGE_CLICKED = 'Page Clicked',
   PAGE_VIEWED = 'Page Viewed',
   SEARCH_BAR_CLICKED = 'Search Bar Clicked',
+  SENTIMENT_CLICKED = 'Sentiment Clicked',
   SWAP_AUTOROUTER_VISUALIZATION_EXPANDED = 'Swap Autorouter Visualization Expanded',
   SWAP_DETAILS_EXPANDED = 'Swap Details Expanded',
   SWAP_MAX_TOKEN_AMOUNT_SELECTED = 'Swap Max Token Amount Selected',
