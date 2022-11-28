@@ -33,6 +33,7 @@ export enum DocsHomepageElementName {
   GRANTS = 'Grants',
   IMPLEMENT_SWAP = 'Implement Swap',
   NEGATIVE_SENTIMENT = 'Negative Sentiment',
+  NEUTRAL_SENTIMENT = 'Neutral Sentiment',
   POSITIVE_SENTIMENT = 'Positive Sentiment',
   PROVIDE_LIQUIDITY = 'Provide Liquidity',
   SDK = 'SDK',
