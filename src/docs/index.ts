@@ -32,9 +32,6 @@ export enum DocsHomepageElementName {
   GITHUB = 'Github',
   GRANTS = 'Grants',
   IMPLEMENT_SWAP = 'Implement Swap',
-  NEGATIVE_SENTIMENT = 'Negative Sentiment',
-  NEUTRAL_SENTIMENT = 'Neutral Sentiment',
-  POSITIVE_SENTIMENT = 'Positive Sentiment',
   PROVIDE_LIQUIDITY = 'Provide Liquidity',
   SDK = 'SDK',
   SDK_QUICK_START = 'Sdk Quick Start',
@@ -48,4 +45,10 @@ export enum DocsHomepageElementName {
   WHAT_IS_UNISWAP = 'What is Uniswap',
   WHITEPAPER = 'Whitepaper',
   WIDGETS = 'Widgets',
+}
+
+export enum DocsSentiment {
+  NEGATIVE_SENTIMENT = 'Negative Sentiment',
+  NEUTRAL_SENTIMENT = 'Neutral Sentiment',
+  POSITIVE_SENTIMENT = 'Positive Sentiment',
 }
