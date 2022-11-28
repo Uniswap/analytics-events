@@ -52,3 +52,8 @@ export enum DocsSentiment {
   NEUTRAL_SENTIMENT = 'Neutral Sentiment',
   POSITIVE_SENTIMENT = 'Positive Sentiment',
 }
+
+export enum DocsSentimentSection {
+  BOTTOM_SECTION = 'SENTIMENT_BOTTOM_SECTION',
+  TOP_SECTION = 'SENTIMENT_TOP_SECTION',
+}
