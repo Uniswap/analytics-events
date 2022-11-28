@@ -9,6 +9,7 @@ export enum DocsSectionName {
   DEVELOPER_LINKS = 'Developer Links',
   GETTING_STARTED_LINKS = 'Getting Started Links',
   QUICK_LINKS = 'Quick Links',
+  SENTIMENT = 'Sentiment',
   SMART_CONTRACT_LINKS = 'Smart Contract Links',
   WELCOME_LINKS = 'Welcome Links',
 }
@@ -44,4 +45,10 @@ export enum DocsHomepageElementName {
   WHAT_IS_UNISWAP = 'What is Uniswap',
   WHITEPAPER = 'Whitepaper',
   WIDGETS = 'Widgets',
+}
+
+export enum DocsSentiment {
+  NEGATIVE_SENTIMENT = 'Negative Sentiment',
+  NEUTRAL_SENTIMENT = 'Neutral Sentiment',
+  POSITIVE_SENTIMENT = 'Positive Sentiment',
 }
