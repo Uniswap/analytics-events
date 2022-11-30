@@ -30,7 +30,8 @@
     "prepack": "yarn run build",
     "lint": "yarn eslint .",
     "release": "semantic-release",
-    "test": "jest"
+    "tarball": "npm pkg set version=0.0.1 && npm pack && npm pkg delete version && mv uniswap-analytics-events-0.0.1.tgz uniswap-analytics-events-dev.tgz",
+    "tarball:install": "yarn run tarball && ./scripts/install-in-repo.sh"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.1",
