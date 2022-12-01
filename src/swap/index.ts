@@ -1,7 +1,7 @@
 /**
  * Swapping specific events.
  */
- export enum SwapEventName {
+export enum SwapEventName {
   SWAP_AUTOROUTER_VISUALIZATION_EXPANDED = 'Swap Autorouter Visualization Expanded',
   SWAP_DETAILS_EXPANDED = 'Swap Details Expanded',
   SWAP_MAX_TOKEN_AMOUNT_SELECTED = 'Swap Max Token Amount Selected',
