@@ -22,7 +22,7 @@ export enum InterfaceEventName {
 /**
  * Known pages in the app. Highest order context.
  */
-export enum PageName {
+export enum InterfacePageName {
   ABOUT_PAGE = 'about-page',
   LANDING_PAGE = 'landing-page',
   NFT_COLLECTION_PAGE = 'nft-collection-page',
@@ -41,7 +41,7 @@ export enum PageName {
  * eg a `back` button in a modal will have the same `element`,
  * but a different `section`.
  */
-export enum SectionName {
+export enum InterfaceSectionName {
   CURRENCY_INPUT_PANEL = 'swap-currency-input',
   CURRENCY_OUTPUT_PANEL = 'swap-currency-output',
   NAVBAR_SEARCH = 'Navbar Search',
@@ -49,7 +49,7 @@ export enum SectionName {
 }
 
 /** Known modals for analytics purposes. */
-export enum ModalName {
+export enum InterfaceModalName {
   CONFIRM_SWAP = 'confirm-swap-modal',
   NFT_LISTING = 'nft-listing-modal',
   NFT_TX_COMPLETE = 'nft-tx-complete-modal',
@@ -60,7 +60,7 @@ export enum ModalName {
  * Known element names for analytics purposes.
  * Use to identify low-level components given a TraceContext
  */
-export enum ElementName {
+export enum InterfaceElementName {
   AUTOROUTER_VISUALIZATION_ROW = 'expandable-autorouter-visualization-row',
   COMMON_BASES_CURRENCY_BUTTON = 'common-bases-currency-button',
   CONFIRM_SWAP_BUTTON = 'confirm-swap-or-send',
