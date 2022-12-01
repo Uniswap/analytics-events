@@ -91,7 +91,7 @@ export enum DocsSentiment {
 
 ### Event Organization Separation
 
-All event names, property names, and property values should be defined using enumerations placed in the best folder for ease of reference.
+All event names, property names, and property values should be defined using enumerations placed in the best folder for ease of reference, and can be split out into separate files when needed.
 
 Top level files are for such as [primitives](./src/primitives.ts) contain generic data that is supposed to be reused by different applications. This data describes the events being logged, such as `EventName.MENU_CLICK`, which reflects an event on a menu. Specific event context should be captured in additional fields beyond the event name to create user-friendly hierarchy groupings.
 
