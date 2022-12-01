@@ -13,3 +13,8 @@ export enum SwapEventName {
   SWAP_TOKENS_REVERSED = 'Swap Tokens Reversed',
   SWAP_TRANSACTION_COMPLETED = 'Swap Transaction Completed',
 }
+
+export enum SwapPriceUpdateUserResponse {
+  ACCEPTED = 'Accepted',
+  REJECTED = 'Rejected',
+}

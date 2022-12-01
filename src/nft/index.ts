@@ -19,3 +19,12 @@ export enum NFTEventName {
   NFT_SELL_START_LISTING = 'NFT Sell Start Listing',
   NFT_TRENDING_ROW_SELECTED = 'Trending Row Selected',
 }
+
+/**
+ * Known Filter Types for NFTs
+ */
+ export enum NFTFilterTypes {
+    MARKETPLACE = 'Marketplace',
+    PRICE_RANGE = 'Price Range',
+    TRAIT = 'Trait',
+  }
