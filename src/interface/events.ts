@@ -1,7 +1,7 @@
 /**
  * Interface specific events.
  */
- export enum InterfaceEventName {
+export enum InterfaceEventName {
   APPROVE_TOKEN_TXN_SUBMITTED = 'Approve Token Transaction Submitted',
   CONNECT_WALLET_BUTTON_CLICKED = 'Connect Wallet Button Clicked',
   EXPLORE_BANNER_CLICKED = 'Explore Banner Clicked',
