@@ -23,15 +23,6 @@ To add new events, you will need to define, organize, and test them using the fo
 
 Event, property, and property value enumerations ensure that event logging is not prone to misspelling, inconsistency, repitition, or unexpected logged values. These enumerations and events can be shared across products or be specific to a product or use case. When definining enumerations, consider that the package exports all names at the top level, so adding a specific prefix for your product or use case may be useful. If your use case are generalizable, you can define your enumeration as a primitive or reuse an existing primitive.
 
-#### Events: Specific vs General
-
-When defining an event name, an event name can be defined as either specific (e.g `NFT Buy Bag Succeeded`) or general (e.g. `Page Viewed`) with properties to describe the action further. To determine which is best for your use case when designing events for the easiest usage in Amplitude, consider the following:
-
-*Specific Events*: This is best if your event will be part of a "funnel" (e.g how many users did X then Y then Z?) or it is important that people can easily find the event often in Amplitude.
-*General Events with properties*: This is best if you need to cut many types of events across a heiarchy (e.g you care about how many people did the sum of the general action as well as the specific sums in comparision to each other). It will be easy to implement this cross-cut using these properties in this case.
-
-For more specific information regarding designing your events, consult [this Amplitude guide](https://help.amplitude.com/hc/en-us/articles/5447814048795#h_fec80838-397a-409e-a32b-bd116ff75d85) for best practices.
-
 #### The Trace Framework
 
 The [analytics](https://github.com/Uniswap/analytics) library implements the [Trace framework](https://slack.engineering/creating-a-react-analytics-logging-library/) to enable easy default properties and basic heiarchy of context. The following context properties are available, in order of specificity. This can be used directly for ease or logged manually for custom trigger events.
@@ -43,7 +34,7 @@ The [analytics](https://github.com/Uniswap/analytics) library implements the [Tr
 | `modal`     | A modal, if one exists at the time of the event.                                                                                      |
 | `element`   | The most specific element that triggered the event such as a specific button or link.                                                 |
 
-No specific context is required and any or all of these trace fields may be null. Use these as it makes sense for your context.
+No specific context is required and any or all of these trace fields may be null. Use these as it makes sense for your context, and define possible values in this repository.
 
 ### Event Naming
 
