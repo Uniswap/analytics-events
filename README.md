@@ -19,29 +19,7 @@ npm i --save @uniswap/analytics-events
 
 To add new events, you will need to define, organize, and test them using the following rules and principles:
 
-### Naming Events
-
-Events are composed of an event name, event properties, and user properties. Adding a new event will be concerned with the event name and properties.
-
-Event names should:
-- follow the Object-Action naming convention (based on this [article](https://segment.com/academy/collecting-data/naming-conventions-for-clean-data/)).
-- be human readable
-- capitalize each word (e.g [Proper Case](https://www.computerhope.com/jargon/p/proper-case.htm))
-- start with object/product to ensure events are grouped together in Amplitude (sorted alphabetically)
-- us past tense verbs (e.g. Button *Clicked*).
-- *not* use acronyms or short hand (e.g. use `Transaction` over `Txn`)
-
-Event names are defined in Javascript `enum`'s. The `Enum` name should be specific and in `PascalCase`. Enum values should be in `UPPER_SNAKE_CASE`.
-
-Property names should:
-- be `snake_case`
-- be prefixed with `is_` when representing a boolean value
-- end in units (unabbreviated) when needed (e.g. `time_seconds`)
-- *not* use acronyms or short hand (e.g. use `Transaction` over `Txn`)
-
-String property values should be consistent within all possible values, opting for either `Proper Case`, `kebab-case`,  or `snake-case`. The default selection should be `Proper Case`.
-
-### Structuring Events
+### Designing Events
 
 Event, property, and property value enumerations ensure that event logging is not prone to misspelling, inconsistency, repitition, or unexpected logged values. These enumerations and events can be shared across products or be specific to a product or use case. When definining enumerations, consider that the package exports all names at the top level, so adding a specific prefix for your product or use case may be useful. If your use case are generalizable, you can define your enumeration as a primitive or reuse an existing primitive.
 
@@ -67,7 +45,60 @@ The [analytics](https://github.com/Uniswap/analytics) library implements the [Tr
 
 No specific context is required and any or all of these trace fields may be null. Use these as it makes sense for your context.
 
-### Event Separation
+### Event Naming
+
+Events are composed of an event name, event properties, and user properties. Adding a new event will be concerned with the event name and properties.
+
+Event names should:
+- follow the Object-Action naming convention (based on this [article](https://segment.com/academy/collecting-data/naming-conventions-for-clean-data/)).
+- be human readable
+- capitalize each word (e.g [Proper Case](https://www.computerhope.com/jargon/p/proper-case.htm))
+- start with object/product to ensure events are grouped together in Amplitude (sorted alphabetically)
+- us past tense verbs (e.g. Button *Clicked*).
+- *not* use acronyms or short hand (e.g. use `Transaction` over `Txn`)
+
+Property names should:
+- be `snake_case`
+- be prefixed with `is_` when representing a boolean value
+- end in units (unabbreviated) when needed (e.g. `time_seconds`)
+- *not* use acronyms or short hand (e.g. use `Transaction` over `Txn`)
+
+### Defining Events
+
+Event names, property names, and property values should all be defined in Javascript using `enum`'s and follow the following conventions:
+- `enum` names should be as specific as possible (e.g `DocsProtocolVersion` over `Version`).
+- `enum` names should be in `PascalCase`.
+- Code values of enums should be named in `UPPER_SNAKE_CASE`.
+- String property values should be consistent within all possible values, opting for either `Proper Case`, `kebab-case`,  or `snake-case`. The default selection should be `Proper Case`.
+
+An example (for illustrative purposes) of a well defined set of specific event components would look like:
+
+```javascript
+// Event names example
+export enum NFTBuyEvents {
+  NFT_BUY_ADDED = 'NFT Buy Bag Added',
+  NFT_BUY_BAG_CHANGED = 'NFT Buy Bag Changed',
+  NFT_BUY_BAG_REFUNDED = 'NFT Buy Bag Refunded',
+  NFT_BUY_BAG_SIGNED = 'NFT Buy Bag Signed',
+  NFT_BUY_BAG_SUCCEEDED = 'NFT Buy Bag Succeeded',
+}
+
+// Event properties example
+export enum WalletEventProperties {
+    WALLET_ADDRESS = 'wallet_address',
+    TO_ADDRESS = 'to_address',
+    TIMESTAMP_EPOCH_SECONDS = 'timestamp_epoch_seconds',
+}
+
+// Property values example
+export enum DocsSentiment {
+  NEGATIVE_SENTIMENT = 'Negative Sentiment',
+  NEUTRAL_SENTIMENT = 'Neutral Sentiment',
+  POSITIVE_SENTIMENT = 'Positive Sentiment',
+}
+```
+
+### Event Organization Separation
 
 All event names, property names, and property values should be defined using enumerations placed in the best folder for ease of reference.
 
