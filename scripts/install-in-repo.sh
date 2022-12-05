@@ -21,6 +21,6 @@ mv uniswap-analytics-events-dev.tgz $ANALYTICS_IMPLEMENTING_REPO_PATH/uniswap-an
     elif [ "$ANALYTICS_IMPLEMENTING_REPO_INSTALL" = "npm" ]; then
         npm install uniswap-analytics-events-dev.tgz
     else
-        echo "Invalid install type: " + $ANALYTICS_IMPLEMENTING_REPO_INSTALL
+        echo "Invalid install type (must be yarn or npm): " + $ANALYTICS_IMPLEMENTING_REPO_INSTALL
     fi
 )
