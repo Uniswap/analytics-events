@@ -17,7 +17,7 @@ npm i --save @uniswap/analytics-events
 
 ## Adding Events
 
-Events are composed of an event name, event properties, and user properties. Event names, event properties, and property values are defined by enumerations in this repository to ensure ensure that event logging is not prone to misspelling, inconsistency, repitition, or unexpected logged values.
+Events are composed of an event name, event properties, and user properties. Event names, event properties, and property values are defined by enumerations in this repository to ensure ensure that event logging is not prone to misspelling, inconsistency, repetition, or unexpected logged values.
 
 This README will go over how to design, name, organize, and test your event names, event properties, and property values.
 
@@ -50,7 +50,7 @@ export enum DocsSentiment {
 
 ## Designing Events: The Trace Framework
 
-The [analytics](https://github.com/Uniswap/analytics) library implements the [Trace framework](https://slack.engineering/creating-a-react-analytics-logging-library/) to enable easy default properties and basic heiarchy of context. The following context properties are available, in order of specificity. This can be used directly for ease or logged manually for custom trigger events.
+The [analytics](https://github.com/Uniswap/analytics) library implements the [Trace framework](https://slack.engineering/creating-a-react-analytics-logging-library/) to enable easy default properties and basic hierarchy of context. The following context properties are available, in order of specificity. This can be used directly for ease or logged manually for custom trigger events.
 
 | Context     | Description                                                                                                                           |
 | :---------  | :------------------------------------------------------------------------------------------------------------------------------------ |
@@ -90,7 +90,7 @@ Event names, property names, and property values should all be defined in Javasc
 
 ## Organizing Events
 
-These enumerations and events can be shared across products or be specific to a product or use case. All event names, property names, and property values should be defined using enumerations placed in the best folder for ease of reference, and can be split out into separate files when needed. When definining enumerations, consider that the package exports all names at the top level, so adding a specific prefix for your product or use case may be useful. If your use cases are highly generalizable, you can define your enumeration as a primitive or reuse an existing primitive.
+These enumerations and events can be shared across products or be specific to a product or use case. All event names, property names, and property values should be defined using enumerations placed in the best folder for ease of reference, and can be split out into separate files when needed. When defining enumerations, consider that the package exports all names at the top level, so adding a specific prefix for your product or use case may be useful. If your use cases are highly generalizable, you can define your enumeration as a primitive or reuse an existing primitive.
 
 Top level files are for such as [primitives](./src/primitives.ts) contain generic data that is supposed to be reused by different applications. This data describes the events being logged, such as `EventName.MENU_CLICK`, which reflects an event on a menu. Specific event context should be captured in additional fields beyond the event name to create user-friendly hierarchy groupings.
 
@@ -98,7 +98,7 @@ Folders should be made by origin or product. For example, [docs](./src/docs) con
 
 ## Testing Events
 
-For rapid development, a conveninece flow is availabe that allows you to do the following in a single command:
+For rapid development, a convenience flow is available that allows you to do the following in a single command:
 - create a tarball copy of the latest events
 - copy this tarball to the specified project
 - install this package in the specified project
