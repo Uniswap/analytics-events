@@ -34,6 +34,7 @@ export enum EventName {
   NFT_TRENDING_ROW_SELECTED = 'Trending Row Selected',
   PAGE_CLICKED = 'Page Clicked',
   PAGE_VIEWED = 'Page Viewed',
+  PAGE_TRANSITION = 'Page Transition',
   SEARCH_BAR_CLICKED = 'Search Bar Clicked',
   SENTIMENT_SUBMITTED = 'Sentiment Submitted',
   SWAP_AUTOROUTER_VISUALIZATION_EXPANDED = 'Swap Autorouter Visualization Expanded',
