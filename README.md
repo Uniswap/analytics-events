@@ -61,6 +61,8 @@ The [analytics](https://github.com/Uniswap/analytics) library implements the [Tr
 
 No specific context is required and any or all of these trace fields may be null. Use these as it makes sense for your context, and define possible values in this repository. These fields will work in tandem with your event names and event properties.
 
+Trace context values should follow property value naming conventions.
+
 ## Naming Conventions
 
 Event names should:
