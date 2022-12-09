@@ -2,6 +2,8 @@
  * Known pages in the app. Highest order context.
  */
 export enum InterfacePageName {
+  ABOUT_PAGE = 'about-page',
+  LANDING_PAGE = 'landing-page',
   NFT_COLLECTION_PAGE = 'nft-collection-page',
   NFT_DETAILS_PAGE = 'nft-details-page',
   NFT_EXPLORE_PAGE = 'nft-explore-page',

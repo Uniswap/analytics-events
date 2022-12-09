@@ -14,9 +14,9 @@ export enum NFTEventName {
   NFT_FILTER_SELECTED = 'NFT Filter Selected',
   NFT_LISTING_COMPLETED = 'NFT Listing Success',
   NFT_LISTING_SIGNED = 'NFT Listing Signed',
+  NFT_PROFILE_PAGE_START_SELL = 'NFT Profile Page Start Sell',
   NFT_SELL_ITEM_ADDED = 'NFT Sell Item Added',
-  NFT_SELL_SELECTED = 'NFT Sell Selected',
-  NFT_SELL_START_LISTING = 'NFT Sell Start Listing',
+  NFT_SELL_START_LISTING = 'NFT List Page Start Listing',
   NFT_TRENDING_ROW_SELECTED = 'Trending Row Selected',
 }
 
