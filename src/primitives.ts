@@ -8,6 +8,7 @@ export enum EventName {
   APPROVE_TOKEN_TXN_SUBMITTED = 'Approve Token Transaction Submitted',
   APP_LOADED = 'Application Loaded',
   CONNECT_WALLET_BUTTON_CLICKED = 'Connect Wallet Button Clicked',
+  ELEMENT_CLICKED = 'Element Clicked',
   EXPLORE_BANNER_CLICKED = 'Explore Banner Clicked',
   EXPLORE_SEARCH_SELECTED = 'Explore Search Selected',
   EXPLORE_TOKEN_ROW_CLICKED = 'Explore Token Row Clicked',
