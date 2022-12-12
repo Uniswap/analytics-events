@@ -1,7 +1,7 @@
 /**
  * General event names that can be reused across products.
  */
-export enum BasicEventName {
+export enum SharedEventName {
   APP_LOADED = 'Application Loaded',
   FOOTER_CLICKED = 'Footer Clicked',
   MENU_CLICKED = 'Menu Clicked',
