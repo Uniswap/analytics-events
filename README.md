@@ -141,7 +141,7 @@ npm install uniswap-analytics-dev.tgz
 
 ## Releasing Events
 
-Releasing a new version of the package is performed manually using the [release](/.github/workflows/release.yaml) Github workflow.
+Releasing a new version of the package is performed automatically after pushing code to main using the [release](/.github/workflows/release.yaml) Github workflow.
 
 This repository uses [semantic-release](https://github.com/semantic-release/semantic-release) for the release process,
 which in turn uses the [Angular commit message suggestions](https://github.com/angular/angular/blob/main/CONTRIBUTING.md) to identify the type of release.
