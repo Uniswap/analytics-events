@@ -40,12 +40,12 @@ export enum ModalName {
  * Use to identify low-level components given a TraceContext
  */
 export enum ElementName {
-  ABOUT_PAGE_LEARN_MORE_BUTTON = 'about-page-learn-more-button',
   ABOUT_PAGE_DOCS_BUTTON = 'about-page-docs-button',
   ABOUT_PAGE_FOOTER_BLOG_BUTTON = 'about-page-blog-button',
   ABOUT_PAGE_FOOTER_CAREERS_BUTTON = 'about-page-careers-button',
   ABOUT_PAGE_FOOTER_SUPPORT_BUTTON = 'about-page-footer-support-button',
   ABOUT_PAGE_FOOTER_TWITTER_BUTTON = 'about-page-twitter-button',
+  ABOUT_PAGE_LEARN_MORE_BUTTON = 'about-page-learn-more-button',
   ABOUT_PAGE_NFTS_CARD = 'about-page-nfts-card',
   ABOUT_PAGE_SWAP_CARD = 'about-page-swap-card',
   AUTOROUTER_VISUALIZATION_ROW = 'expandable-autorouter-visualization-row',
