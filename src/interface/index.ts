@@ -40,13 +40,21 @@ export enum ModalName {
  * Use to identify low-level components given a TraceContext
  */
 export enum ElementName {
+  ABOUT_PAGE_NFTS_CARD = 'about-page-nfts-card',
+  ABOUT_PAGE_SWAP_CARD = 'about-page-swap-card',
+  ABOUT_PAGE_SWAP_ELEMENT = 'about-page-swap-element',
   AUTOROUTER_VISUALIZATION_ROW = 'expandable-autorouter-visualization-row',
+  BLOG_LINK = 'blog-link',
+  CAREERS_LINK = 'careers-link',
   COMMON_BASES_CURRENCY_BUTTON = 'common-bases-currency-button',
   CONFIRM_SWAP_BUTTON = 'confirm-swap-or-send',
   CONNECT_WALLET_BUTTON = 'connect-wallet-button',
+  CONTINUE_BUTTON = 'continue-button',
+  DOCS_BUTTON = 'docs-button',
   EXPLORE_BANNER = 'explore-banner',
   EXPLORE_SEARCH_INPUT = 'explore_search_input',
   IMPORT_TOKEN_BUTTON = 'import-token-button',
+  LEARN_MORE_BUTTON = 'learn-more-button',
   MAX_TOKEN_AMOUNT_BUTTON = 'max-token-amount-button',
   NAVBAR_SEARCH_INPUT = 'navbar-search-input',
   NFT_ACTIVITY_TAB = 'nft-activity-tab',
@@ -55,9 +63,11 @@ export enum ElementName {
   NFT_FILTER_OPTION = 'nft-filter-option',
   NFT_TRENDING_ROW = 'nft-trending-row',
   PRICE_UPDATE_ACCEPT_BUTTON = 'price-update-accept-button',
+  SUPPORT_LINK = 'support-link',
   SWAP_BUTTON = 'swap-button',
   SWAP_DETAILS_DROPDOWN = 'swap-details-dropdown',
   SWAP_TOKENS_REVERSE_ARROW_BUTTON = 'swap-tokens-reverse-arrow-button',
   TOKEN_SELECTOR_ROW = 'token-selector-row',
+  TWITTER_LINK = 'twitter-link',
   WALLET_TYPE_OPTION = 'wallet-type-option',
 }
