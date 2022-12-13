@@ -54,6 +54,7 @@ export enum ElementName {
   EXPLORE_BANNER = 'explore-banner',
   EXPLORE_SEARCH_INPUT = 'explore_search_input',
   IMPORT_TOKEN_BUTTON = 'import-token-button',
+  LEARN_MORE_BUTTON = 'learn-more-button',
   MAX_TOKEN_AMOUNT_BUTTON = 'max-token-amount-button',
   NAVBAR_SEARCH_INPUT = 'navbar-search-input',
   NFT_ACTIVITY_TAB = 'nft-activity-tab',
