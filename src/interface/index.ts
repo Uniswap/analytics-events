@@ -13,6 +13,7 @@ export enum PageName {
   TOKENS_PAGE = 'tokens-page',
   TOKEN_DETAILS_PAGE = 'token-details',
   VOTE_PAGE = 'vote-page',
+  NOT_FOUND = 'not-found',
 }
 
 /**
