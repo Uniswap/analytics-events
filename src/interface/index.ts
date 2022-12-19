@@ -40,6 +40,9 @@ export enum ModalName {
  * Use to identify low-level components given a TraceContext
  */
 export enum ElementName {
+  ABOUT_PAGE_ANALYTICS_CARD = 'about-page-analytics-card',
+  ABOUT_PAGE_DEV_DOCS_CARD = 'about-page-dev-docs-card',
+  ABOUT_PAGE_EARN_CARD = 'about-page-earn-card',
   ABOUT_PAGE_NFTS_CARD = 'about-page-nfts-card',
   ABOUT_PAGE_SWAP_CARD = 'about-page-swap-card',
   AUTOROUTER_VISUALIZATION_ROW = 'expandable-autorouter-visualization-row',
