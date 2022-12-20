@@ -118,6 +118,9 @@ yarn tarball:install
 
 This flow also clears your `tmp` cache only for yarn, ensuring yarn install times are not degraded after testing your analytics changes.
 
+When you're done testing, undo the changes so you don't commit the temporary file to remote:
+`git restore package.json yarn.lock && rm uniswap-analytics-events-dev.tgz && yarn`.
+
 ### Manually Installing
 
 To test generate a tarball of the new test package and install it directly, using the following command:

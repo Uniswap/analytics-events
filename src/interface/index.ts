@@ -41,6 +41,7 @@ export enum ModalName {
  */
 export enum ElementName {
   ABOUT_PAGE_ANALYTICS_CARD = 'about-page-analytics-card',
+  ABOUT_PAGE_BUY_CRYPTO_CARD = 'about-page-buy-crypto-card',
   ABOUT_PAGE_DEV_DOCS_CARD = 'about-page-dev-docs-card',
   ABOUT_PAGE_EARN_CARD = 'about-page-earn-card',
   ABOUT_PAGE_NFTS_CARD = 'about-page-nfts-card',
