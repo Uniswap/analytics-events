@@ -6,29 +6,18 @@
     "access": "public"
   },
   "exports": {
-    ".": {
-      "import": {
-        "types": "./lib/esm/types/index.d.ts",
-        "default": "./lib/esm/index.mjs"
-      },
-      "require": {
-        "types": "./lib/cjs/types/index.d.ts",
-        "default": "./lib/cjs/index.js"
-      }
-    }
+    ".": "./dist/index.js"
   },
   "files": [
-    "lib"
+    "dist"
   ],
-  "types": "./lib/cjs/types/index.d.ts",
-  "main": "./lib/cjs/index.js",
+  "types": "./dist/types/index.d.ts",
+  "main": "./dist/index.js",
   "scripts": {
-    "clean": "rm -rf ./lib",
-    "build": "yarn run clean && yarn run build:esm && yarn run build:cjs",
-    "build:esm": "tsc -p ./tsconfig.esm.json && mv lib/esm/index.js lib/esm/index.mjs",
-    "build:cjs": "tsc -p ./tsconfig.cjs.json",
-    "prepack": "yarn run build",
+    "clean": "rm -rf ./dist",
+    "build": "yarn run clean && tsc",
     "lint": "yarn eslint .",
+    "prepack": "yarn run build",
     "release": "semantic-release",
     "tarball": "npm pkg set version=0.0.1 && npm pack && npm pkg delete version && mv uniswap-analytics-events-0.0.1.tgz uniswap-analytics-events-dev.tgz",
     "tarball:install": "yarn run tarball && ./scripts/install-in-repo.sh"
