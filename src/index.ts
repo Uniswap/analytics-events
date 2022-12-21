@@ -1,4 +1,6 @@
-export * from './primitives.js'
-export * from './properties.js'
-export * from './interface/index.js'
-export * from './docs/index.js'
+export * from './primitives'
+
+export * from './docs'
+export * from './interface'
+export * from './nft'
+export * from './swap'
