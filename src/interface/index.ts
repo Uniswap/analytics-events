@@ -1,3 +1,5 @@
-export * from './events'
-export * from './trace'
-export * from './properties'
+// .js imports required for CommonJS
+
+export * from './events.js'
+export * from './trace.js'
+export * from './properties.js'

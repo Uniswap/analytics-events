@@ -1,6 +1,8 @@
-export * from './primitives'
+// .js imports required for CommonJS
 
-export * from './docs'
-export * from './interface'
-export * from './nft'
-export * from './swap'
+export * from './primitives.js'
+
+export * from './docs/index.js'
+export * from './interface/index.js'
+export * from './nft/index.js'
+export * from './swap/index.js'
