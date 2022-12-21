@@ -1,13 +1,10 @@
 name: Release
 
 on:
-  workflow_dispatch: # manually
-    inputs:
-      dry_run:
-        description: Skip publishing
-        required: false
-        default: true
-        type: boolean
+  push:
+    branches:
+      - main
+      
 jobs:
   release:
     name: Release
@@ -35,5 +32,5 @@ jobs:
           NPM_CONFIG_USERCONFIG: /dev/null
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: yarn release --dry-run=${{ inputs.dry_run }}
+        run: yarn release
         if: success()

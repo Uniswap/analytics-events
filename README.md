@@ -118,6 +118,9 @@ yarn tarball:install
 
 This flow also clears your `tmp` cache only for yarn, ensuring yarn install times are not degraded after testing your analytics changes.
 
+When you're done testing, undo the changes so you don't commit the temporary file to remote:
+`git restore package.json yarn.lock && rm uniswap-analytics-events-dev.tgz && yarn`.
+
 ### Manually Installing
 
 To test generate a tarball of the new test package and install it directly, using the following command:
@@ -141,7 +144,7 @@ npm install uniswap-analytics-dev.tgz
 
 ## Releasing Events
 
-Releasing a new version of the package is performed manually using the [release](/.github/workflows/release.yaml) Github workflow.
+Releasing a new version of the package is performed automatically after pushing code to main using the [release](/.github/workflows/release.yaml) Github workflow.
 
 This repository uses [semantic-release](https://github.com/semantic-release/semantic-release) for the release process,
 which in turn uses the [Angular commit message suggestions](https://github.com/angular/angular/blob/main/CONTRIBUTING.md) to identify the type of release.

@@ -3,6 +3,7 @@
  */
 export enum SharedEventName {
   APP_LOADED = 'Application Loaded',
+  ELEMENT_CLICKED = 'Element Clicked',
   FOOTER_CLICKED = 'Footer Clicked',
   MENU_CLICKED = 'Menu Clicked',
   NAVBAR_CLICKED = 'Navbar Clicked',
