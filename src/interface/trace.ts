@@ -8,6 +8,7 @@ export enum InterfacePageName {
   NFT_DETAILS_PAGE = 'nft-details-page',
   NFT_EXPLORE_PAGE = 'nft-explore-page',
   NFT_PROFILE_PAGE = 'nft-profile-page',
+  NOT_FOUND = 'not-found',
   POOL_PAGE = 'pool-page',
   SWAP_PAGE = 'swap-page',
   TOKENS_PAGE = 'tokens-page',
