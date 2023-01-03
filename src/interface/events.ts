@@ -9,7 +9,7 @@ export enum InterfaceEventName {
   EXPLORE_SEARCH_SELECTED = 'Explore Search Selected',
   EXPLORE_TOKEN_ROW_CLICKED = 'Explore Token Row Clicked',
   FIAT_ONRAMP_BANNER_CLICKED = 'Fiat Onramp Banner Clicked',
-  FIAT_ONRAMP_WIDGET_OPENED = 'Fiat OnRamp Widget Opened',
+  FIAT_ONRAMP_WIDGET_OPENED = 'Fiat Onramp Widget Opened',
   NAVBAR_RESULT_SELECTED = 'Navbar Result Selected',
   NAVBAR_SEARCH_EXITED = 'Navbar Search Exited',
   NAVBAR_SEARCH_SELECTED = 'Navbar Search Selected',
