@@ -2,17 +2,10 @@
  * General event names that can be reused across products.
  */
 export enum SharedEventName {
-  ACCOUNT_DROPDOWN_BUTTON_CLICKED = 'Account Dropdown Button Clicked',
   APP_LOADED = 'Application Loaded',
   ELEMENT_CLICKED = 'Element Clicked',
-  FIAT_ONRAMP_BANNER_CLICKED = 'Fiat Onramp Banner Clicked',
-  FIAT_ONRAMP_WIDGET_OPENED = 'Fiat OnRamp Widget Opened',
   FOOTER_CLICKED = 'Footer Clicked',
   MENU_CLICKED = 'Menu Clicked',
-  MOONPAY_GEOCHECK_COMPLETED = 'MoonPay Geocheck Completed',
-  MOONPAY_TRANSACTION_CREATED = 'MoonPay Transaction Created',
-  MOONPAY_TRANSACTION_FAILED = 'MoonPay Transaction Failed',
-  MOONPAY_TRANSACTION_UPDATED = 'MoonPay Transaction Updated',
   NAVBAR_CLICKED = 'Navbar Clicked',
   PAGE_CLICKED = 'Page Clicked',
   PAGE_VIEWED = 'Page Viewed',
