@@ -11,3 +11,8 @@ export enum WalletConnectionResult {
   FAILED = 'Failed',
   SUCCEEDED = 'Succeeded',
 }
+
+export enum RiskCheckResult {
+  FAILED = 'Failed',
+  PASSED = 'Passed',
+}

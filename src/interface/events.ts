@@ -13,6 +13,7 @@ export enum InterfaceEventName {
   NAVBAR_RESULT_SELECTED = 'Navbar Result Selected',
   NAVBAR_SEARCH_EXITED = 'Navbar Search Exited',
   NAVBAR_SEARCH_SELECTED = 'Navbar Search Selected',
+  RISK_CHECKED = 'Risk Checked',
   TOKEN_IMPORTED = 'Token Imported',
   TOKEN_SELECTED = 'Token Selected',
   TOKEN_SELECTOR_OPENED = 'Token Selector Opened',
