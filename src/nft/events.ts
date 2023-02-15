@@ -18,7 +18,7 @@ export enum NFTEventName {
   NFT_PROFILE_PAGE_START_SELL = 'NFT Profile Page Start Sell',
   NFT_SELL_ITEM_ADDED = 'NFT Sell Item Added',
   NFT_SELL_START_LISTING = 'NFT List Page Start Listing',
-  NFT_TRENDING_ROW_SELECTED = 'Trending Row Selected',
-  NFT_TOKEN_SELECTOR_CLICKED = 'NFT Token Selector Clicked',
   NFT_TOKEN_SELECTED = 'NFT Token Selected',
+  NFT_TOKEN_SELECTOR_CLICKED = 'NFT Token Selector Clicked',
+  NFT_TRENDING_ROW_SELECTED = 'Trending Row Selected',
 }
