@@ -10,7 +10,6 @@ export enum NFTEventName {
   NFT_BUY_BAG_REFUNDED = 'NFT Buy Bag Refunded',
   NFT_BUY_BAG_SIGNED = 'NFT Buy Bag Signed',
   NFT_BUY_BAG_SUCCEEDED = 'NFT Buy Bag Succeeded',
-  NFT_BUY_BAG_SUCCEEDED_WITH_ERC20 = 'NFT Buy Bag Succeeded With ERC20',
   NFT_FILTER_OPENED = 'NFT Collection Filter Opened',
   NFT_FILTER_SELECTED = 'NFT Filter Selected',
   NFT_LISTING_COMPLETED = 'NFT Listing Success',
