@@ -1,41 +1,17 @@
 /**
- * Event names that can occur in the application.
- *
- * Subject to change as new features are added and new events are defined
- * and logged.
+ * General event names that can be reused across products.
  */
-export enum EventName {
-  APPROVE_TOKEN_TXN_SUBMITTED = 'Approve Token Transaction Submitted',
+export enum SharedEventName {
   APP_LOADED = 'Application Loaded',
-  CONNECT_WALLET_BUTTON_CLICKED = 'Connect Wallet Button Clicked',
-  EXPLORE_BANNER_CLICKED = 'Explore Banner Clicked',
-  EXPLORE_SEARCH_SELECTED = 'Explore Search Selected',
-  EXPLORE_TOKEN_ROW_CLICKED = 'Explore Token Row Clicked',
+  ELEMENT_CLICKED = 'Element Clicked',
   FOOTER_CLICKED = 'Footer Clicked',
   MENU_CLICKED = 'Menu Clicked',
   NAVBAR_CLICKED = 'Navbar Clicked',
-  NAVBAR_RESULT_SELECTED = 'Navbar Result Selected',
-  NAVBAR_SEARCH_EXITED = 'Navbar Search Exited',
-  NAVBAR_SEARCH_SELECTED = 'Navbar Search Selected',
-  NFT_ACTIVITY_SELECTED = 'NFT Activity Selected',
-  NFT_BUY_ADDED = 'NFT Buy Bag Added',
-  NFT_BUY_BAG_CHANGED = 'NFT Buy Bag Changed',
-  NFT_BUY_BAG_PAY = 'NFT Buy Bag Pay Clicked',
-  NFT_BUY_BAG_REFUNDED = 'NFT Buy Bag Refunded',
-  NFT_BUY_BAG_SIGNED = 'NFT Buy Bag Signed',
-  NFT_BUY_BAG_SUCCEEDED = 'NFT Buy Bag Succeeded',
-  NFT_FILTER_OPENED = 'NFT Collection Filter Opened',
-  NFT_FILTER_SELECTED = 'NFT Filter Selected',
-  NFT_LISTING_COMPLETED = 'NFT Listing Success',
-  NFT_LISTING_SIGNED = 'NFT Listing Signed',
-  NFT_SELL_ITEM_ADDED = 'NFT Sell Item Added',
-  NFT_SELL_SELECTED = 'NFT Sell Selected',
-  NFT_SELL_START_LISTING = 'NFT Sell Start Listing',
-  NFT_TRENDING_ROW_SELECTED = 'Trending Row Selected',
   PAGE_CLICKED = 'Page Clicked',
   PAGE_VIEWED = 'Page Viewed',
   SEARCH_BAR_CLICKED = 'Search Bar Clicked',
   SENTIMENT_SUBMITTED = 'Sentiment Submitted',
+<<<<<<< HEAD
   SWAP_AUTOROUTER_VISUALIZATION_EXPANDED = 'Swap Autorouter Visualization Expanded',
   SWAP_DETAILS_EXPANDED = 'Swap Details Expanded',
   SWAP_MAX_TOKEN_AMOUNT_SELECTED = 'Swap Max Token Amount Selected',
@@ -54,9 +30,9 @@ export enum EventName {
   TOKEN_SELECTOR_OPENED = 'Token Selector Opened',
   WALLET_CONNECT_TXN_COMPLETED = 'Wallet Connect Transaction Completed',
   WALLET_SELECTED = 'Wallet Selected',
+=======
+>>>>>>> main
   WEB_VITALS = 'Web Vitals',
-  WRAP_TOKEN_TXN_INVALIDATED = 'Wrap Token Transaction Invalidated',
-  WRAP_TOKEN_TXN_SUBMITTED = 'Wrap Token Transaction Submitted',
 }
 
 /**
@@ -125,6 +101,7 @@ export enum CustomUserProperties {
   BROWSER = 'browser',
   DARK_MODE = 'is_dark_mode',
   EXPERT_MODE = 'is_expert_mode',
+  PEER_WALLET_AGENT = 'peer_wallet_agent',
   SCREEN_RESOLUTION_HEIGHT = 'screen_resolution_height',
   SCREEN_RESOLUTION_WIDTH = 'screen_resolution_width',
   USER_AGENT = 'user_agent',
