@@ -24,7 +24,7 @@ export enum InterfacePageName {
 export enum InterfaceSectionName {
   CURRENCY_INPUT_PANEL = 'swap-currency-input',
   CURRENCY_OUTPUT_PANEL = 'swap-currency-output',
-  MINI_PORTFOLIO = 'mini-portfoflio',
+  MINI_PORTFOLIO = 'mini-portfolio',
   NAVBAR_SEARCH = 'Navbar Search',
   WIDGET = 'widget',
 }
