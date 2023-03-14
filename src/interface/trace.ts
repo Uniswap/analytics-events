@@ -24,6 +24,7 @@ export enum InterfacePageName {
 export enum InterfaceSectionName {
   CURRENCY_INPUT_PANEL = 'swap-currency-input',
   CURRENCY_OUTPUT_PANEL = 'swap-currency-output',
+  MINI_PORTFOLIO = 'mini-portfoflio',
   NAVBAR_SEARCH = 'Navbar Search',
   WIDGET = 'widget',
 }
@@ -55,6 +56,7 @@ export enum InterfaceElementName {
   CONFIRM_SWAP_BUTTON = 'confirm-swap-or-send',
   CONNECT_WALLET_BUTTON = 'connect-wallet-button',
   CONTINUE_BUTTON = 'continue-button',
+  DISCONNECT_WALLET_BUTTON = 'disconnect-wallet-button',
   DOCS_LINK = 'docs-link',
   EXPLORE_BANNER = 'explore-banner',
   EXPLORE_SEARCH_INPUT = 'explore_search_input',
@@ -63,6 +65,9 @@ export enum InterfaceElementName {
   LEARN_MORE_LINK = 'learn-more-link',
   LEGACY_LANDING_PAGE_LINK = 'legacy-landing-page-link',
   MAX_TOKEN_AMOUNT_BUTTON = 'max-token-amount-button',
+  MINI_PORTFOLIO_NFT_TAB = 'mini-portfolio-nft-tab',
+  MINI_PORTFOLIO_POOLS_TAB = 'mini-portfolio-pools-tab',
+  MINI_PORTFOLIO_TOKENS_TAB = 'mini-portfolio-tokens-tab',
   NAVBAR_SEARCH_INPUT = 'navbar-search-input',
   NFT_ACTIVITY_TAB = 'nft-activity-tab',
   NFT_BUY_BAG_PAY_BUTTON = 'nft-buy-bag-pay-button',
