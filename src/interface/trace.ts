@@ -60,6 +60,8 @@ export enum InterfaceElementName {
   DOCS_LINK = 'docs-link',
   EXPLORE_BANNER = 'explore-banner',
   EXPLORE_SEARCH_INPUT = 'explore_search_input',
+  FIAT_ON_RAMP_BUY_BUTTON = 'fiat-on-ramp-buy-button',
+  FIAT_ON_RAMP_LEARN_MORE_LINK = 'fiat-on-ramp-learn-more-link',
   IMPORT_TOKEN_BUTTON = 'import-token-button',
   LANDING_PAGE_SWAP_ELEMENT = 'landing-page-swap-element',
   LEARN_MORE_LINK = 'learn-more-link',
