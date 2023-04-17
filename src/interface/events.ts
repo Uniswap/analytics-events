@@ -18,6 +18,7 @@ export enum InterfaceEventName {
   TOKEN_IMPORTED = 'Token Imported',
   TOKEN_SELECTED = 'Token Selected',
   TOKEN_SELECTOR_OPENED = 'Token Selector Opened',
+  UNISWAP_WALLET_MICROSITE_OPENED = 'Uniswap Wallet Microsite Opened',
   WALLET_CONNECT_TXN_COMPLETED = 'Wallet Connect Transaction Completed',
   WALLET_SELECTED = 'Wallet Selected',
   WRAP_TOKEN_TXN_INVALIDATED = 'Wrap Token Transaction Invalidated',
