@@ -81,6 +81,7 @@ export enum CustomUserProperties {
   DARK_MODE = 'is_dark_mode',
   EXPERT_MODE = 'is_expert_mode',
   PEER_WALLET_AGENT = 'peer_wallet_agent',
+  ROUTER_PREFERENCE = 'router_preference',
   SCREEN_RESOLUTION_HEIGHT = 'screen_resolution_height',
   SCREEN_RESOLUTION_WIDTH = 'screen_resolution_width',
   USER_AGENT = 'user_agent',
