@@ -13,6 +13,7 @@ export enum WalletConnectionResult {
 }
 
 export enum RiskCheckResult {
+  ERROR = 'Error',
   FAILED = 'Failed',
   PASSED = 'Passed',
 }
