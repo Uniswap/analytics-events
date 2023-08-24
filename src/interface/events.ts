@@ -10,6 +10,7 @@ export enum InterfaceEventName {
   EXPLORE_TOKEN_ROW_CLICKED = 'Explore Token Row Clicked',
   FIAT_ONRAMP_BANNER_CLICKED = 'Fiat Onramp Banner Clicked',
   FIAT_ONRAMP_WIDGET_OPENED = 'Fiat Onramp Widget Opened',
+  LOCAL_CURRENCY_SELECTED = 'Local Currency Selected',
   MINI_PORTFOLIO_TOGGLED = 'Mini Portfolio Drawer Toggled',
   NAVBAR_RESULT_SELECTED = 'Navbar Result Selected',
   NAVBAR_SEARCH_EXITED = 'Navbar Search Exited',
