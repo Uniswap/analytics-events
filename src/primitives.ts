@@ -87,4 +87,5 @@ export enum CustomUserProperties {
   USER_AGENT = 'user_agent',
   WALLET_ADDRESS = 'wallet_address',
   WALLET_TYPE = 'wallet_type',
+  WALLET_VERSION = 'wallet_version',
 }
