@@ -78,6 +78,7 @@ export enum CustomUserProperties {
   ALL_WALLET_ADDRESSES_CONNECTED = 'all_wallet_addresses_connected',
   ALL_WALLET_CHAIN_IDS = 'all_wallet_chain_ids',
   BROWSER = 'browser',
+  CHAIN_ID = 'chain_id',
   DARK_MODE = 'is_dark_mode',
   EXPERT_MODE = 'is_expert_mode',
   PEER_WALLET_AGENT = 'peer_wallet_agent',
