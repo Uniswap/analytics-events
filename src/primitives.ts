@@ -81,6 +81,7 @@ export enum CustomUserProperties {
   CHAIN_ID = 'chain_id',
   DARK_MODE = 'is_dark_mode',
   EXPERT_MODE = 'is_expert_mode',
+  GIT_COMMIT_HASH = 'git_commit_hash',
   PEER_WALLET_AGENT = 'peer_wallet_agent',
   ROUTER_PREFERENCE = 'router_preference',
   SCREEN_RESOLUTION_HEIGHT = 'screen_resolution_height',
