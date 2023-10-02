@@ -3,6 +3,7 @@
  */
 export enum InterfacePageName {
   ABOUT_PAGE = 'about-page',
+  EXPLORE_PAGE = 'explore-page',
   LANDING_PAGE = 'landing-page',
   NFT_COLLECTION_PAGE = 'nft-collection-page',
   NFT_DETAILS_PAGE = 'nft-details-page',
@@ -59,7 +60,10 @@ export enum InterfaceElementName {
   DISCONNECT_WALLET_BUTTON = 'disconnect-wallet-button',
   DOCS_LINK = 'docs-link',
   EXPLORE_BANNER = 'explore-banner',
+  EXPLORE_POOLS_TAB = 'explore-pools-tab',
   EXPLORE_SEARCH_INPUT = 'explore_search_input',
+  EXPLORE_TOKENS_TAB = 'explore-tokens-tab',
+  EXPLORE_TRANSACTIONS_TAB = 'explore-transactions-tab',
   FIAT_ON_RAMP_BUY_BUTTON = 'fiat-on-ramp-buy-button',
   FIAT_ON_RAMP_LEARN_MORE_LINK = 'fiat-on-ramp-learn-more-link',
   IMPORT_TOKEN_BUTTON = 'import-token-button',
