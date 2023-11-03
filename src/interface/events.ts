@@ -22,7 +22,7 @@ export enum InterfaceEventName {
   TOKEN_SELECTOR_OPENED = 'Token Selector Opened',
   UNISWAP_ANDROID_APP_DOWNLOAD_CLICKED = 'Uniswap Android App Download Link Clicked',
   UNISWAP_IOS_APP_DOWNLOAD_CLICKED = 'Uniswap iOS App Download Link Clicked',
-  UNISWAP_WALLET_MICROSITE_CLICKED = 'Uniswap Wallet Microsite Link Clicked',
+  UNISWAP_WALLET_MICROSITE_OPENED = 'Uniswap Wallet Microsite Opened',
   UNIWALLET_CONNECT_MODAL_OPENED = 'Uniswap WalletConnect Modal Opened',
   WALLET_CONNECTED = 'Wallet Connected',
   WALLET_PROVIDER_USED = 'Wallet Provider Used',
