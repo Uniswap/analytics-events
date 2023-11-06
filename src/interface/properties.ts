@@ -19,6 +19,6 @@ export enum RiskCheckResult {
 }
 
 export enum AppDownloadPlatform {
-  ANDROID = 'Android',
-  IOS = 'iOS',
+  ANDROID = 'android',
+  IOS = 'ios',
 }
