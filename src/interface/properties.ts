@@ -17,3 +17,8 @@ export enum RiskCheckResult {
   FAILED = 'Failed',
   PASSED = 'Passed',
 }
+
+export enum AppDownloadPlatform {
+  ANDROID = 'Android',
+  IOS = 'iOS',
+}
