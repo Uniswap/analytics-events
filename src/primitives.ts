@@ -2,9 +2,11 @@
  * General event names that can be reused across products.
  */
 export enum SharedEventName {
+  ANALYTICS_SWITCH_TOGGLED = 'Analytics Switch Toggled',
   APP_LOADED = 'Application Loaded',
   ELEMENT_CLICKED = 'Element Clicked',
   FOOTER_CLICKED = 'Footer Clicked',
+  HEARTBEAT = 'Heartbeat',
   MENU_CLICKED = 'Menu Clicked',
   NAVBAR_CLICKED = 'Navbar Clicked',
   PAGE_CLICKED = 'Page Clicked',
