@@ -98,7 +98,6 @@ export enum InterfaceElementName {
   TWITTER_LINK = 'twitter-link',
   UNISWAP_WALLET_BANNER_DOWNLOAD_BUTTON = 'uniswap-wallet-banner-download-button',
   UNISWAP_WALLET_CONNECTOR = 'uniswap-wallet-connector',
-  UNISWAP_WALLET_LANDING_PAGE_DOWNLOAD_BUTTON = 'uniswap-wallet-landing-page-download-button',
   UNISWAP_WALLET_MODAL_DOWNLOAD_BUTTON = 'uniswap-wallet-modal-download-button',
   UNISWAP_WALLET_NAVBAR_MENU_DOWNLOAD_BUTTON = 'uniswap-wallet-navbar-menu-download-button',
   WALLET_TYPE_OPTION = 'wallet-type-option',
