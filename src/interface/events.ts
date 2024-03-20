@@ -16,7 +16,6 @@ export enum InterfaceEventName {
   NAVBAR_RESULT_SELECTED = 'Navbar Result Selected',
   NAVBAR_SEARCH_EXITED = 'Navbar Search Exited',
   NAVBAR_SEARCH_SELECTED = 'Navbar Search Selected',
-  POOL_TABLE_ROW_CLICKED = 'Pool Table Row Clicked',
   RISK_CHECKED = 'Risk Checked',
   TOKEN_IMPORTED = 'Token Imported',
   TOKEN_SELECTED = 'Token Selected',
