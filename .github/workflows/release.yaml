@@ -29,7 +29,8 @@ jobs:
           export-env: true
         env:
           OP_SERVICE_ACCOUNT_TOKEN: ${{ secrets.OP_SERVICE_ACCOUNT_TOKEN }}
-          NPM_TOKEN: op://npm-deploy/npm-token/secret 
+          NPM_TOKEN: op://npm-deploy/npm-token/secret
+          GITHUB_TOKEN: op://npm-deploy/GITHUB_TOKEN/token
 
       - name: Install dependencies
         run: yarn --frozen-lockfile
