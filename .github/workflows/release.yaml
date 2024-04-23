@@ -9,6 +9,8 @@ jobs:
   release:
     name: Release
     runs-on: ubuntu-latest
+    environment:
+      name: Release
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -19,6 +21,16 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: 16
+      
+      - name: Load secret
+        uses: 1password/load-secrets-action@581a835fb51b8e7ec56b71cf2ffddd7e68bb25e0
+        with:
+          # Export loaded secrets as environment variables
+          export-env: true
+        env:
+          OP_SERVICE_ACCOUNT_TOKEN: ${{ secrets.OP_SERVICE_ACCOUNT_TOKEN }}
+          NPM_TOKEN: op://npm-deploy/npm-token/secret
+          GITHUB_TOKEN: op://npm-deploy/GITHUB_TOKEN/token
 
       - name: Install dependencies
         run: yarn --frozen-lockfile
@@ -30,7 +42,7 @@ jobs:
       - name: Release
         env:
           NPM_CONFIG_USERCONFIG: /dev/null
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          GITHUB_TOKEN: ${{ env.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ env.NPM_TOKEN }}
         run: yarn release
         if: success()
