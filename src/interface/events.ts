@@ -17,7 +17,6 @@ export enum InterfaceEventName {
   NAVBAR_SEARCH_EXITED = 'Navbar Search Exited',
   NAVBAR_SEARCH_SELECTED = 'Navbar Search Selected',
   RISK_CHECKED = 'Risk Checked',
-  SEND_FIAT_TOGGLED = 'Send Fiat Toggled',
   SEND_INITIATED = 'Send Initiated',
   SEND_RECIPIENT_SELECTED = 'Send Recipient Selected',
   TOKEN_IMPORTED = 'Token Imported',
