@@ -13,7 +13,6 @@ export enum SharedEventName {
   PAGE_VIEWED = 'Page Viewed',
   SEARCH_BAR_CLICKED = 'Search Bar Clicked',
   SENTIMENT_SUBMITTED = 'Sentiment Submitted',
-  TERMS_OF_SERVICE_ACCEPTED = 'Terms of Service Accepted',
   WEB_VITALS = 'Web Vitals',
 }
 
