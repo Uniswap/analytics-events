@@ -28,6 +28,7 @@ jobs:
           # Export loaded secrets as environment variables
           export-env: true
         env:
+          OP_SERVICE_ACCOUNT_TOKEN: ${{ secrets.OP_SERVICE_ACCOUNT_TOKEN }}
           NPM_TOKEN: op://npm-deploy/npm-token/secret
 
       - name: Install dependencies
