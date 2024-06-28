@@ -9,7 +9,7 @@ jobs:
   release:
     name: Release
     runs-on: 
-      npm-deploy
+      group: npm-deploy
     environment:
       name: Release
     steps:
