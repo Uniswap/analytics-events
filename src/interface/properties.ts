@@ -22,3 +22,9 @@ export enum AppDownloadPlatform {
   ANDROID = 'android',
   IOS = 'ios',
 }
+
+export enum ExtenstionMarketingSource {
+  CONNECTOR = 'connector',
+  GETTING_STARTED = 'getting-started',
+  WIDE_MODAL = 'wide-modal',
+}
