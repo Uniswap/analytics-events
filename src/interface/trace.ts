@@ -34,6 +34,8 @@ export enum InterfaceSectionName {
 /** Known modals for analytics purposes. */
 export enum InterfaceModalName {
   CONFIRM_SWAP = 'confirm-swap-modal',
+  EXTENSION_LAUNCH_PROMOTIONAL_MODAL = 'extension-launch-promotional-modal',
+  GETTING_STARTED_MODAL = 'getting-started-modal',
   NFT_LISTING = 'nft-listing-modal',
   NFT_TX_COMPLETE = 'nft-tx-complete-modal',
   TOKEN_SELECTOR = 'token-selector-modal',
@@ -69,10 +71,8 @@ export enum InterfaceElementName {
   EXPLORE_TRANSACTIONS_TAB = 'explore-transactions-tab',
   EXTENSION_DOWNLOAD_BUTTON = 'extension-download-button',
   EXTENSION_DOWNLOAD_CONNECTOR = 'extension-download-connector',
-  EXTENSION_LAUNCH_PROMOTIONAL_MODAL = 'extension-launch-promotional-modal',
   FIAT_ON_RAMP_BUY_BUTTON = 'fiat-on-ramp-buy-button',
   FIAT_ON_RAMP_LEARN_MORE_LINK = 'fiat-on-ramp-learn-more-link',
-  GETTING_STARTED_MODAL = 'GETTING_STARTED_MODAL',
   IMPORT_TOKEN_BUTTON = 'import-token-button',
   LANDING_PAGE_SWAP_ELEMENT = 'landing-page-swap-element',
   LEARN_MORE_LINK = 'learn-more-link',
