@@ -12,6 +12,7 @@ export enum InterfaceEventName {
   EXTERNAL_LINK_CLICK = 'External Link Click',
   FIAT_ONRAMP_BANNER_CLICKED = 'Fiat Onramp Banner Clicked',
   FIAT_ONRAMP_WIDGET_OPENED = 'Fiat Onramp Widget Opened',
+  LANGUAGE_SELECTED = 'Language Selected',
   MINI_PORTFOLIO_TOGGLED = 'Mini Portfolio Drawer Toggled',
   NAVBAR_RESULT_SELECTED = 'Navbar Result Selected',
   NAVBAR_SEARCH_EXITED = 'Navbar Search Exited',
