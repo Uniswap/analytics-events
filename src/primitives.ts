@@ -91,6 +91,7 @@ export enum CustomUserProperties {
   SCREEN_RESOLUTION_WIDTH = 'screen_resolution_width',
   USER_AGENT = 'user_agent',
   WALLET_ADDRESS = 'wallet_address',
+  WALLET_NAME = 'wallet_name',
   WALLET_TYPE = 'wallet_type',
   WALLET_VERSION = 'wallet_version',
 }
