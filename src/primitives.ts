@@ -93,5 +93,5 @@ export enum CustomUserProperties {
   WALLET_ADDRESS = 'wallet_address',
   WALLET_NAME = 'wallet_name',
   WALLET_TYPE = 'wallet_type',
-  WALLET_VERSION = 'wallet_version'
+  WALLET_VERSION = 'wallet_version',
 }
