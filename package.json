@@ -1,9 +1,11 @@
 {
   "name": "@uniswap/analytics-events",
   "description": "Uniswap analytics events",
+  "repository": "https://github.com/Uniswap/analytics-events",
   "license": "MIT",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "provenance": true
   },
   "exports": {
     ".": {
