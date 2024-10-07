@@ -33,6 +33,7 @@ export enum InterfaceSectionName {
 
 /** Known modals for analytics purposes. */
 export enum InterfaceModalName {
+  ASTRO_CHAIN_LAUNCH_MODAL = 'astro-chain-launch-modal',
   CONFIRM_SWAP = 'confirm-swap-modal',
   EXTENSION_LAUNCH_PROMOTIONAL_MODAL = 'extension-launch-promotional-modal',
   GETTING_STARTED_MODAL = 'getting-started-modal',
