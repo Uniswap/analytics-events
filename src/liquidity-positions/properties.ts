@@ -7,4 +7,5 @@ export enum LiquiditySource {
 export enum FeePoolSelectAction {
   MANUAL = 'Manual',
   RECOMMENDED = 'Recommended',
+  SEARCH = 'Search',
 }
