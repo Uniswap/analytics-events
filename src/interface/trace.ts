@@ -12,6 +12,8 @@ export enum InterfacePageName {
   NOT_FOUND = 'not-found',
   POOL_DETAILS_PAGE = 'pool-details-page',
   POOL_PAGE = 'pool-page',
+  POSITIONS_PAGE = 'positions-page',
+  POSITION_DETAILS_PAGE = 'position-details-page',
   SWAP_PAGE = 'swap-page',
   TOKENS_PAGE = 'tokens-page',
   TOKEN_DETAILS_PAGE = 'token-details',
