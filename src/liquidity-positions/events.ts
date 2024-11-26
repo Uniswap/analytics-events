@@ -7,4 +7,5 @@ export enum LiquidityEventName {
   MIGRATE_LIQUIDITY_SUBMITTED = 'Migrate Liquidity Submitted',
   REMOVE_LIQUIDITY_SUBMITTED = 'Remove Liquidity Submitted',
   SELECT_LIQUIDITY_POOL_FEE_TIER = 'Select Liquidity Pool Fee Tier',
+  TRANSACTION_MODIFIED_IN_WALLET = 'Transaction Modified in Wallet',
 }
