@@ -89,6 +89,7 @@ export enum CustomUserProperties {
   ROUTER_PREFERENCE = 'router_preference',
   SCREEN_RESOLUTION_HEIGHT = 'screen_resolution_height',
   SCREEN_RESOLUTION_WIDTH = 'screen_resolution_width',
+  TESTNET_MODE_ENABLED = 'testnet_mode_enabled',
   USER_AGENT = 'user_agent',
   WALLET_ADDRESS = 'wallet_address',
   WALLET_NAME = 'wallet_name',
