@@ -10,6 +10,8 @@ export enum SwapEventName {
   SWAP_FIRST_SIGNATURE_REQUESTED = 'Swap First Signature Requested',
   SWAP_MAX_TOKEN_AMOUNT_SELECTED = 'Swap Max Token Amount Selected',
   SWAP_MODIFIED_IN_WALLET = 'Swap Modified in Wallet',
+  SWAP_PRESELECT_ASSET_SELECTED = 'Swap Preselect Asset Selected',
+  SWAP_PRESET_TOKEN_AMOUNT_SELECTED = 'Swap Preset Token Amount Selected',
   SWAP_PRICE_IMPACT_ACKNOWLEDGED = 'Swap Price Impact Acknowledged',
   SWAP_PRICE_UPDATE_ACKNOWLEDGED = 'Swap Price Update Acknowledged',
   SWAP_QUOTE_FETCH = 'Swap Quote Fetch',
