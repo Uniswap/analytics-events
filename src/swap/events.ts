@@ -8,8 +8,10 @@ export enum SwapEventName {
   SWAP_ESTIMATE_GAS_CALL_FAILED = 'Swap Estimate Gas Call Failed',
   SWAP_FIRST_ACTION = 'Swap First Action',
   SWAP_FIRST_SIGNATURE_REQUESTED = 'Swap First Signature Requested',
-  SWAP_MAX_TOKEN_AMOUNT_SELECTED = 'Swap Max Token Amount Selected',
+  SWAP_MAX_TOKEN_AMOUNT_SELECTED = 'Swap Max Token Amount Selected', // TODO(xtine): remove after removing from universe codebase
   SWAP_MODIFIED_IN_WALLET = 'Swap Modified in Wallet',
+  SWAP_PRESELECT_ASSET_SELECTED = 'Swap Preselect Asset Selected',
+  SWAP_PRESET_TOKEN_AMOUNT_SELECTED = 'Swap Preset Token Amount Selected',
   SWAP_PRICE_IMPACT_ACKNOWLEDGED = 'Swap Price Impact Acknowledged',
   SWAP_PRICE_UPDATE_ACKNOWLEDGED = 'Swap Price Update Acknowledged',
   SWAP_QUOTE_FETCH = 'Swap Quote Fetch',
