@@ -17,7 +17,7 @@ npm i --save @uniswap/analytics-events
 
 ## Adding Events
 
-Events are composed of an event name, event properties, and user properties. Event names, event properties, and property values are defined by enumerations in this repository to ensure ensure that event logging is not prone to misspelling, inconsistency, repetition, or unexpected logged values.
+Events are composed of an event name, event properties, and user properties. Event names, event properties, and property values are defined by enumerations in this repository to ensure that event logging is not prone to misspelling, inconsistency, repetition, or unexpected logged values.
 
 This README will go over how to design, name, organize, and test your event names, event properties, and property values.
 
@@ -70,7 +70,7 @@ Event names should:
 - be human readable
 - capitalize each word (e.g [Proper Case](https://www.computerhope.com/jargon/p/proper-case.htm))
 - start with object/product to ensure events are grouped together in Amplitude (sorted alphabetically)
-- us past tense verbs (e.g. Button *Clicked*).
+- use past tense verbs (e.g. Button *Clicked*).
 - *not* use acronyms or short hand (e.g. use `Transaction` over `Txn`)
 
 Property names should:
