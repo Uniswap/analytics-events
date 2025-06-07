@@ -76,23 +76,3 @@ export function getBrowser(): string {
     return Browser.UNKNOWN
   }
 }
-
-export enum CustomUserProperties {
-  ALL_WALLET_ADDRESSES_CONNECTED = 'all_wallet_addresses_connected',
-  ALL_WALLET_CHAIN_IDS = 'all_wallet_chain_ids',
-  BROWSER = 'browser',
-  CHAIN_ID = 'chain_id',
-  DARK_MODE = 'is_dark_mode',
-  EXPERT_MODE = 'is_expert_mode',
-  GIT_COMMIT_HASH = 'git_commit_hash',
-  PEER_WALLET_AGENT = 'peer_wallet_agent',
-  ROUTER_PREFERENCE = 'router_preference',
-  SCREEN_RESOLUTION_HEIGHT = 'screen_resolution_height',
-  SCREEN_RESOLUTION_WIDTH = 'screen_resolution_width',
-  TESTNET_MODE_ENABLED = 'testnet_mode_enabled',
-  USER_AGENT = 'user_agent',
-  WALLET_ADDRESS = 'wallet_address',
-  WALLET_NAME = 'wallet_name',
-  WALLET_TYPE = 'wallet_type',
-  WALLET_VERSION = 'wallet_version',
-}
