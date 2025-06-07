@@ -10,11 +10,3 @@ Your PR title must follow [conventional commits](https://www.conventionalcommits
 
 ## Testing
 
-
-
-#### Before merging, please ensure the following:
-
-- [ ] All events have been approved by both product and engineering
-- [ ] All events have been tested in their consuming package
-- [ ] This PR is titled as `feat` for any new events, or otherwise follows conventional commit standards
-
